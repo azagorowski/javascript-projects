@@ -16,3 +16,5 @@ const drawActive = function() {
 document.body.addEventListener("mousemove", draw);
 document.body.addEventListener("mousedown", drawActive);
 document.body.addEventListener("mouseup", drawActive);
+
+// Based on "Samuraj Programowania" tutorial.
