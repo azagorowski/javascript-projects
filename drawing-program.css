@@ -3,10 +3,18 @@ body {
 	margin: 0;
 }
 
-div {
-	width: 5px;
-	height: 5px;
+/* colorBlack {
+	width: 15px;
+	height: 15px;
 	border-radius: 50%;
 	background-color: #000;
+	position: absolute;
+} */
+
+colorRed {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #ff0000;
 	position: absolute;
 }
