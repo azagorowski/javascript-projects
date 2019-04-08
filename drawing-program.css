@@ -1,6 +1,7 @@
 body {
 	height: 100vh;
 	margin: 0;
+	background-color: #c2d6d6;
 }
 
 /* colorBlack {
@@ -15,6 +16,7 @@ colorRed {
 	width: 15px;
 	height: 15px;
 	border-radius: 50%;
-	background-color: #ff0000;
+	background-color: #ff3333;
 	position: absolute;
+	box-shadow: 10px 10px 62px 0px rgba(245,8,8,1);
 }
