@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8" />
+	
+</head>
+
+<body>
+	<script type="text/javascript">
+		var Array1 = new Array(2,2,3,4,5,6,7,8,53,54,55,56,57,58);
+		var minimum = Array1[0];
+		var maximum = Array1[0];
+		
+		document.write("Array: ");
+		for (i = 1; i < Array1.length; i++) {
+		//Displaying of array
+		document.write(Array1[i] + ", ");
+		// If current minimum value is higher than array element
+		if (minimum > Array1[i]) {
+			// Bounding element to minimum value
+			minimum = Array1[i];
+		}
+		// If current maximum value is lower than array element
+		if (maximum < Array1[i]) {
+			// Bounding element to maximum value
+			maximum = Array1[i];
+		}
+	}
+	//Displaying results
+	document.write("<br /> The minimum element of array: " + minimum);
+	document.write("<br /> The maximum element of array: " + maximum);
+	</script>
+</body>
+
+</html>
